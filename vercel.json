@@ -1,0 +1,1286 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/a-new-digital-decade-9-reasons-you-should-re-evaluate-your-internet-presence",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-amazon-sellers",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-marketing-growth-matt-bertram",
+      "destination": "/topics/agency-growth",
+      "permanent": true
+    },
+    {
+      "source": "/ai-marketing-revolution",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/amazon-fba-strategies-neil-twa",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/authentic-brand-storytelling-trust",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/authority-checker",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/basics-of-seo-guide-for-houston-business-owners",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/best-seo-podcast-entity-graph",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/best-seo-podcast-ep-616-strategies-for-raising-250m-hamlet-azarians-blueprint-for-scaling-tech-and-saas-companies",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/building-effective-marketing-funnels",
+      "destination": "/topics/link-building",
+      "permanent": true
+    },
+    {
+      "source": "/cart",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ceo-mindset-strategy-formula-scale-business",
+      "destination": "/topics/seo-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-ai",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/effective-seo-company-auditing-steps",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/emotional-targeting-cro-digital-marketing",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/entity-seo-ai-search-strategies",
+      "destination": "/topics/ai-search",
+      "permanent": true
+    },
+    {
+      "source": "/events",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/events/llm-visibility-roundtable",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/future-of-llms",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/how-google-business-profile-ranking-works",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/how-search-engines-work",
+      "destination": "/topics/ai-search",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-become-a-podcast-guest-and-how-to-make-the-most-of-that-experience",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/keynotes",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/llm-visibility-certification",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations.kml",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/market-your-podcast",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/marketing-analytics-strategy",
+      "destination": "/topics/analytics",
+      "permanent": true
+    },
+    {
+      "source": "/marketing-technologies",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/maximize-ai-adoption-training",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/multi-channel-marketing-techniques",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/new-ai-driven-search-era",
+      "destination": "/topics/ai-search",
+      "permanent": true
+    },
+    {
+      "source": "/new-seo-playbook-ai",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/online-marketing-podcasts-in-2020",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/packages/123456",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast-for-your-small-business",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/10-big-seo-tips-to-get-more-sales-during-holidays",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/12-helpful-seo-tips-for-large-ecommerce-websites",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/15-link-building-tactics-to-supercharge-your-seo-efforts-now",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/17-tips-about-video-marketing",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/17-ways-to-improve-your-seo-in-2019-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/17-ways-to-improve-your-seo-in-2019-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/17-ways-to-improve-your-seo-in-2019-part-3",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/21-actionable-seo-techniques-in-2019",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/21-actionable-seo-techniques-in-2019-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/21-actionable-seo-techniques-that-work-great-in-2019-by-brian-dean-part-3",
+      "destination": "/podcast/21-actionable-seo-techniques-that-work-great-in-2019-by-brian-dean-part-3-467",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/3-important-search-engines-for-content-marketing",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/3-steps-to-more-sales-in-2018",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/3-ways-to-get-the-most-out-of-user-generated-content",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/4-internet-marketing-strategies-in-2019",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/4-seo-tasks-you-need-to-be-doing-today-but-probably-arent",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/4-steps-to-crafting-the-perfect-seo-title-tag",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/458-unknown-secrets-of-internet-marketing-podcast",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/474-10-content-marketing-skills-you-need-to-master-by-julia-mccoy-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/475-10-content-marketing-skills-you-need-to-master-by-julia-mccoy-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/476-8-elite-digital-marketing-trends-to-watch-out-for-in-2020-by-matt-bertram",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/477-8-elite-digital-marketing-trends-to-watch-out-for-in-2020-by-matt-bertram-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/478-more-ppc-advertisers-pause-campaigns-amid-coronavirus-upheaval-by-ginny-marvin",
+      "destination": "/podcast/more-ppc-advertisers-pause-campaigns-amid-coronavirus-upheaval-by-ginny-marvin-478",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/479-13-ways-businesses-can-combat-coronavirus-impact",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/480-13-ways-businesses-can-combat-coronavirus-impact",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/481-top-5-mindfulness-tips-to-take-action-now-during-this-pandemic-with-malorie-nicole",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/482-top-12-tips-from-someone-who-has-been-working-from-home-for-12-years-by-ron-lieback",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/483-top-12-tips-from-someone-who-has-been-working-from-home-for-12-years-by-ron-lieback-part-2",
+      "destination": "/podcast/top-12-tips-from-someone-who-has-been-working-from-home-for-12-years-by-ron-lieback-part-2",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/484-3-step-blog-strategy-that-works-storytelling-usps-sales-by-ron-lieback",
+      "destination": "/podcast/3-step-blog-strategy-that-works-storytelling-usps-sales-by-ron-lieback-484",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/485-what-you-need-to-know-about-podcast-advertising-in-2020-with-lori-lefcourt",
+      "destination": "/podcast/what-you-need-to-know-about-podcast-advertising-in-2020-with-lori-lefcourt-485",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/486-google-lists-5-key-trends-shaping-consumer-behavior-amid-covid-19-by-matt-southern",
+      "destination": "/podcast/google-lists-5-key-trends-shaping-consumer-behavior-amid-covid-19-by-matt-southern-486",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/487-paving-the-path-forward-with-seo-preparing-for-new-normalities-by-lemuel-park",
+      "destination": "/podcast/paving-the-path-forward-with-seo-preparing-for-new-normalities-by-lemuel-park-487",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/488-how-do-you-organize-your-data-data-hierarchy-dam-pim-mdm-and-more-with-rob-neumann",
+      "destination": "/podcast/data-management-how-do-you-organize-your-data-data-hierarchy-dam-pim-mdm-and-more-with-rob",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/489-10-ways-to-avoid-negative-publicity-by-julia-mccoy",
+      "destination": "/podcast/10-ways-to-avoid-negative-publicity-by-julia-mccoy-489",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/490-google-advanced-search-six-powerful-tips-for-better-seo",
+      "destination": "/podcast/google-advanced-search-six-powerful-tips-for-better-seo-490",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/491-6-seo-tactics-for-maximum-customer-acquisition-irina-weber",
+      "destination": "/podcast/6-seo-tactics-for-maximum-customer-acquisition-by-irina-weber-491",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/492-hubspot-enterpise-seo-how-to-create-an-seo-strategy-for-2020",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/493-hubspot-enterprise-seo-how-to-create-an-seo-strategy-for-2020-chris-burres-and-matt-bertram",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/494-interview-of-isar-meitis-of-the-e-tribe-podcast",
+      "destination": "/podcast/interview-of-isar-meitis-of-the-e-tribe-podcast-494",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/495-taylor-waidhofer-interview-houston-real-producers-podcast",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/496-travis-sterling-interview-until-the-last-breath",
+      "destination": "/podcast/travis-sterling-interview-until-the-last-breath-496",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/497-three-ways-to-up-your-video-marketing-game-ann-smarty",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/498-9-tips-for-your-youtube-seo-strategy",
+      "destination": "/podcast/9-tips-for-your-youtube-seo-strategy-498",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/499-10-seo-tips-to-get-your-website-to-the-top-of-google-search",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/5-proven-methods-for-google-shopping-campaign-optimizations",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/5-seo-mistakes-that-smart-people-keep-making",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/5-top-enterprise-local-seo-challenges-how-to-solve-them-in-2023-555",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/500-how-to-target-multiple-cities-without-hurting-your-seo",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/500-how-to-target-multiple-cities-without-hurting-your-seo-by-loren-baker",
+      "destination": "/podcast/how-to-target-multiple-cities-without-hurting-your-seo-by-loren-baker-500",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/501-7-tips-to-improve-your-core-web-vitals-scores-page-experience-signals",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/501-7-tips-to-improve-your-core-web-vitals-scores-page-experience-signals-by-rachel-costello",
+      "destination": "/podcast/7-tips-to-improve-your-core-web-vitals-scores-page-experience-signals-by-rachel-costello-5",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/502-gary-illyes-interview-happiness-and-sunshine-from-google",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/504-5-things-you-can-do-right-now-to-improve-your-google-e-a-t-rating-by-manish-dudharejia",
+      "destination": "/podcast/5-things-you-can-do-right-now-to-improve-your-google-e-a-t-rating-by-manish-dudharejia-504",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/505-enterprise-seo-in-2021-the-importance-of-insights-value-of-action-by-lemuel-park",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/506-9-law-firm-marketing-tactics-for-business-building-in-2021-by-kristopher-jones",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/507-crypto-currency-marketing-plan",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/510-how-to-maximize-your-traditional-marketing-budgets-with-digital-spend",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/511-12-reasons-why-your-business-absolutely-needs-seo-by-sam-hollingsworth",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/512-12-reasons-why-your-business-absolutely-needs-seo-by-sam-hollingsworth-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/513-8-google-seo-tips-for-page-one-results-by-mark-traphagen",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/514-heres-how-you-can-master-your-next-seasonal-digital-marketing-campaign-by-ann-smarty",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/515-local-seo-strategy-for-multiple-locations-everything-you-need-to-know-by-aaron-agius",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/516-2021-google-algorithm-updates",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/517-how-can-we-prepare-for-what-seo-may-look-like-in-future-by-mindy-weinstein",
+      "destination": "/podcast/episode-517-how-can-we-prepare-for-what-seo-may-look-like-in-future-by-mindy-weinstein-517",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/518-what-are-google-zero-click-searches-and-why-are-they-important-by-matthew-royse",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/519-what-are-googles-new-core-web-vitals-why-your-business-should-care-about-them",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/521-the-4-pillars-of-enterprise-seo-success-by-jenn-mathews",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/522-algorithm-cataclysm-google-announces-search-redesign-using-mum-algorithm-by-roger-montti",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/523-enterprise-seo-content-opportunity-dynamic-creation-scale-by-lemuel-park",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/524-enterprise-seo-level-keyword-research-tips-by-brand-smith",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/525-enterprise-seo-level-keyword-research-tips-by-brand-smith-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/526-seo-hosting-why-you-need-it-interview-w-top-sys-admin",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/527-10-enterprise-page-speed-optimizations-implementation-tips-by-matt-bertram",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/528-4-data-driven-insights-to-optimize-your-smart-shopping-campaigns",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/529-interview-with-billy-gene-of-billy-gene-is-marketing-podcast",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/530-5-on-page-seo-factors-to-check-in-underperforming-content",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/531-12-ways-to-use-google-trends-for-seo-by-chuck-price",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/532-enterprise-seo-for-wordpress-plugins-tips-proven-tactics-by-matt-bertram",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/533-12-ways-to-use-google-trends-for-seo-by-chuck-price-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/534-3-ways-to-optimize-internal-linking-by-corey-patterson",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/535-building-an-seo-business-case-your-boss-cant-say-no-to-by-loren-baker",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/536-4-key-areas-of-international-seo-focus-for-entering-a-new-market-by-kristopher-jones",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/537-tips-for-top-performing-brand-awareness-campaigns-on-facebook-ads-by-sean-johnston",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/538-10-remarketing-tools-for-reengaging-winning-the-conversion-by-jason-zotara",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/539-how-to-create-landing-pages-that-convert-sponsored-by-se-ranking",
+      "destination": "/podcast/how-to-create-landing-pages-that-convert-sponsored-by-se-ranking-ep-539",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/540-how-to-create-landing-pages-that-convert-part-2-sponsored-by-se-ranking",
+      "destination": "/podcast/how-to-create-landing-pages-that-convert-part-2-sponsored-by-se-ranking-ep-540",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/541-12-essential-on-page-seo-factors-you-need-to-know-by-loren-baker",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/542-12-essential-on-page-seo-factors-you-need-to-know-part-2-by-loren-baker",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/543-7-ways-to-use-ai-writing-tools-to-generate-new-content-ideas-sponsored-by-frase-io-se-ranking",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/544-5-tips-to-improve-your-content-strategy-sponsored-by-se-ranking",
+      "destination": "/podcast/5-tips-to-improve-your-content-strategy-sponsored-by-se-ranking-ep-544",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/545-competitor-analysis-research-their-marketing-strategy-sponsored-by-spyfu",
+      "destination": "/podcast/competitor-analysis-research-their-marketing-strategy-sponsored-by-spyfu-ep-545",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/547-12-ways-to-get-quality-backlinks-by-ryan-weber",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/548-why-brand-awareness-is-the-fifth-pillar-of-seo-sponsored-by-spyfu",
+      "destination": "/podcast/why-brand-awareness-is-the-fifth-pillar-of-seo-sponsored-by-spyfu-ep-548",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/549-5-ways-high-quality-content-ppc-compliment-each-by-spyfu-com",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/550-how-to-effectively-perform-keyword-research-for-ecommerce",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/551-top-5-essential-seo-reporting-tools-for-agencies-in-2022-by-brock-murray",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/552-new-seo-strategies-3-steps-to-perfect-seo-content-creation",
+      "destination": "/podcast/new-seo-strategies-3-steps-to-perfect-seo-content-creation-ep-552",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/553-5-ways-seo-ppc-can-work-together",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/554-7-tips-for-better-local-seo-reporting-by-matt-bertram",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/556-cmo-vs-seo-how-to-balance-seo-and-b2b-marketing-goals",
+      "destination": "/podcast/cmo-vs-seo-how-to-balance-seo-and-b2b-marketing-goals-ep-556",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/557-10-steps-to-boost-your-sites-crawlability-and-indexability",
+      "destination": "/podcast/10-steps-to-boost-your-sites-crawlability-and-indexability-ep-557",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/558-seo-roi-how-to-ensure-performance-tracking-matches-goals",
+      "destination": "/podcast/seo-roi-how-to-ensure-performance-tracking-matches-goals-ep-558",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/559-google-e-e-a-t-how-to-demonstrate-first-hand-experience",
+      "destination": "/podcast/google-e-e-a-t-how-to-demonstrate-first-hand-experience-ep-559",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/560-10-different-ways-to-get-organic-page-1-google-rankings",
+      "destination": "/podcast/10-different-ways-to-get-organic-page-1-google-rankings-ep-560",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/561-10-different-ways-to-get-organic-page-1-google-rankings-part-2",
+      "destination": "/podcast/10-different-ways-to-get-organic-page-1-google-rankings-part-2-ep-561",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/562-how-to-track-customers-revenue-from-seo-in-your-crm",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/564-yandex-data-leak-the-ranking-factors-the-myths-we-found-part-2",
+      "destination": "/podcast/yandex-data-leak-the-ranking-factors-the-myths-we-found-part-2-ep-564",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/6-ecommerce-ppc-practices-to-improve-roi",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/6-influencer-marketing-mistakes",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/6-steps-to-driven-multi-channel-email-campaign-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/6-steps-to-driven-multi-channel-email-campaign-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/7-steps-of-the-sales-process",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/8-key-google-analytics-reports-you-need-for-seo",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/8-tips-to-help-you-set-up-a-killer-email-drip-campaign",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/9-bad-seo-habits-to-leave-behind-in-2017",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/advanced-internet-marketing-automation-overview",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/adwords-and-bing-secrets-every-ppc-marketer-should-know",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/an-interview-with-loren-baker",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/an-overview-of-internet-marketing",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/anchor-text-best-practices-when-using-google",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/branded-vs-non-branded-traffic-whats-the-difference",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/bring-low-value-content-to-the-next-level",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/calculate-roi-of-seo-campaigns-using-google-analytics",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/elements-to-create-sustain-brand-identity",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/elements-to-create-sustain-brand-identity-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/enterprise-ecommerce-sites-can-win-big-with-an-seo-strategy-509",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/episode-49-social-media-marketing",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/episode-563-yandex-data-leak-the-ranking-factors-the-myths-we-found",
+      "destination": "/podcast/yandex-data-leak-the-ranking-factors-the-myths-we-found-ep-563",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/episode-565-how-to-conduct-a-content-audit-step-by-step",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/episode-567-12-proven-local-seo-tips-to-dominate-the-serps-and-map-pack",
+      "destination": "/podcast/12-proven-local-seo-tips-to-dominate-the-serps-and-map-pack-ep-567",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/episode-567-12-proven-local-seo-tips-to-dominate-the-serps-and-map-pack-2",
+      "destination": "/podcast/12-proven-local-seo-tips-to-dominate-the-serps-and-map-pack-ep-567",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/everything-you-need-to-know-about-topical-authority",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/everything-you-need-to-know-about-wordpress-and-gdpr-compliance",
+      "destination": "/podcast/everything-you-need-to-know-about-wordpress-and-gdpr-compliance-423",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/facebook-ads-vs-google-adwords-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/facebook-ads-vs-google-adwords-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/five-ways-to-improve-your-websites-bounce-rate",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/geofencing-tips-for-retailers",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/get-more-traffic-now-5-secrets",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/getting-down-to-the-nitty-gritty-of-paid-search-ppc",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/googles-4-biggest-ranking-factors",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/googles-e-a-t-busting-10-of-the-biggest-misconceptions-by-lily-ray",
+      "destination": "/podcast/googles-e-a-t-busting-10-of-the-biggest-misconceptions-by-lily-ray-503",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/googles-latest-search-algorithm-to-better-understand-natural-language",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/history-of-internet-marketing-ewebresults",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-good-are-your-ppc-ads",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-ready-are-businesses-for-voice-search",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-to-align-your-content-for-link-building",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-to-build-your-brand-online",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-to-market-your-marijuana-business",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/how-website-redesign-can-sabotage-ppc-efforts",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/ignoring-seo-strategies-could-haunt-you",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/last-minute-seo-strategies-for-the-holiday-season",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/learn-smart-content-smart-seo",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/link-building-outside-the-box-outreach-content-refresh",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-business-content",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-seo-pitfalls-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-seo-pitfalls-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-seo-pitfalls-part-3",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-seo-pitfalls-part-4",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/local-seo-pitfalls-part-5",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/moblie-first-indexing-best-practices",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/online-marketing-tips-for-a-new-business",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/optimizing-for-position-zero-the-future-of-voice-search",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/ppc-ad-management-5-bad-habits-to-break-this-year",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/seo-for-web-designers",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/seo-hacks-no-one-talks-about",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/smarter-content-better-seo",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/technical-seo-mistakes-how-severe-are-they-really",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/ten-landing-page-tweaks-that-increase-conversions",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-beginners-guide-to-landing-pages",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-nitty-gritty-of-paid-search-ppc-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-only-mobile-marketing-checklist-you-need-for-2018",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-top-14-seo-tips-for-2019-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-top-14-seo-tips-for-2019-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-top-digital-marketing-trends-in-2018",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-unknown-secrets-of-internet-marketing-468",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/the-unknown-secrets-of-internet-marketing-469",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/unknown-secrets-of-internet-marketing",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/unknown-secrets-of-internet-marketing-podcast",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/useful-ways-to-mix-up-your-link-building-efforts",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/what-is-a-drip-email-campaign",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/what-is-geofencing-4-questions-every-business-owner-should-ask",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/what-is-sales-funnel-and-why-are-they-important",
+      "destination": "/podcast/what-is-a-sales-funnel-and-why-are-they-important-448",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/what-is-the-google-beacon",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/why-technical-seo-matters",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/why-you-should-be-using-linkable-assets-part-1",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/why-you-should-be-using-linkable-assets-part-2",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/why-you-should-be-using-linkable-assets-part-3",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/podcast/you-should-be-using-youtube-ads",
+      "destination": "/podcast/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product/build-your-brand-mania-book",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product/digital-agency-course-2-day-live-group-training",
+      "destination": "/topics/agency-growth",
+      "permanent": true
+    },
+    {
+      "source": "/product/seo-advanced-secrets-crash-course-1-day-pre-recorded",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/product/strategy-session-1-hour-live",
+      "destination": "/topics/seo-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/product/strategy-workshop-4-hours-live",
+      "destination": "/topics/seo-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/product/website-audit-pre-recorded",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/products",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/profit-plan-sign-up",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/questions",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/repurpose-content",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/scholarship",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-boast-package",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/seo-glossary",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/seo-tools",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/speak-with-matt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sponsors",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/stop-chasing-traffic-start-chasing-revenue",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/the-history-of-podcasting-and-its-effect-on-the-internet",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/the-small-business-owners-marketing-checklist",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/the-undeniable-benefits-of-podcasts-for-brand-awareness-and-seo",
+      "destination": "/topics/content-seo",
+      "permanent": true
+    },
+    {
+      "source": "/thrive-in-todays-digital-world",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thriving-internet-marketing-2025",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/top-10-marketing-strategies-that-are-proven-to-boost-your-business-growth",
+      "destination": "/topics/agency-growth",
+      "permanent": true
+    },
+    {
+      "source": "/want-to-have-an-awesome-podcast-heres-what-you-need-to-do",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/website-traffic-falls-conversion-tips",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/what-does-a-small-business-development-center-do",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/why-listen-business-coaching-podcasts",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/youtube-ads-growing-your-brand-now",
+      "destination": "/topics/paid-ads",
+      "permanent": true
+    }
+  ]
+}

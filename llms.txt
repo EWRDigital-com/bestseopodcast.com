@@ -1,0 +1,54 @@
+# The Best SEO Podcast | llms.txt
+# https://www.bestseopodcast.com
+
+> The Best SEO Podcast: Defining the Future of Search with LLM Visibility™. SEO, AI search, and LLM visibility for operators.
+> Hosted by Matthew Bertram (CEO, EWR Digital) since 2009. 680+ episodes, 5M+ downloads.
+
+## About
+- Host: Matthew Bertram, CEO of EWR Digital (Houston). Hosting since 2009.
+- Topics: SEO, AI Overviews, LLM visibility, generative engine optimization, technical SEO,
+  link building, content strategy, local SEO, ecommerce SEO, analytics, paid search, agency growth.
+- Episodes: https://www.bestseopodcast.com/podcast/
+- Topics: https://www.bestseopodcast.com/topics/
+- Host & credentials: https://www.bestseopodcast.com/host
+- Featured experts (guests): https://www.bestseopodcast.com/experts
+- Glossary (SEO/AEO/GEO/E-E-A-T): https://www.bestseopodcast.com/glossary
+- Answers (direct answers, each cited to source episodes): https://www.bestseopodcast.com/answers/
+- Press & recognition: https://www.bestseopodcast.com/press
+- Editorial policy: https://www.bestseopodcast.com/editorial-policy
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/id303672420
+- YouTube: https://www.youtube.com/@BestSEOPodcast
+- RSS: https://rss.buzzsprout.com/2019013.rss
+
+## Answer corpus
+Direct, sourced answers synthesized from the show's expert conversations. Each page
+answers one question or defines one term, with every claim cited to the episodes it
+came from. Index: https://www.bestseopodcast.com/answers/
+- How long does SEO take to show results?: https://www.bestseopodcast.com/answers/how-long-does-seo-take-to-show-results (7 episodes)
+- How important are online reviews for local SEO?: https://www.bestseopodcast.com/answers/how-important-are-online-reviews-for-local-seo (6 episodes)
+- How does PPC help with content marketing and SEO?: https://www.bestseopodcast.com/answers/how-does-ppc-help-with-content-marketing-and-seo (4 episodes)
+- Why is NAP consistency important for local SEO?: https://www.bestseopodcast.com/answers/why-is-nap-consistency-important-for-local-seo (4 episodes)
+- How should a business owner respond to negative reviews?: https://www.bestseopodcast.com/answers/how-should-a-business-owner-respond-to-negative-reviews (4 episodes)
+- How important is page speed for SEO rankings?: https://www.bestseopodcast.com/answers/how-important-is-page-speed-for-seo-rankings (4 episodes)
+- How often should a business send marketing emails?: https://www.bestseopodcast.com/answers/how-often-should-a-business-send-marketing-emails (4 episodes)
+- Is a high bounce rate always bad for SEO?: https://www.bestseopodcast.com/answers/is-a-high-bounce-rate-always-bad-for-seo (4 episodes)
+- How does search engine marketing differ from search engine optimization?: https://www.bestseopodcast.com/answers/how-does-search-engine-marketing-differ-from-search-engine-optimizatio (4 episodes)
+- How long should a page title tag be for SEO?: https://www.bestseopodcast.com/answers/how-long-should-a-page-title-tag-be-for-seo (4 episodes)
+- Should I link out to external sites from my content?: https://www.bestseopodcast.com/answers/should-i-link-out-to-external-sites-from-my-content (4 episodes)
+- Why should I set up Google Analytics and Google Webmaster Tools?: https://www.bestseopodcast.com/answers/why-should-i-set-up-google-analytics-and-google-webmaster-tools (4 episodes)
+- How should you optimize a YouTube video for search?: https://www.bestseopodcast.com/answers/how-should-you-optimize-a-youtube-video-for-search (4 episodes)
+- How many form fields should a landing page have?: https://www.bestseopodcast.com/answers/how-many-form-fields-should-a-landing-page-have (4 episodes)
+- Is Google PageRank still used today?: https://www.bestseopodcast.com/answers/is-google-pagerank-still-used-today (3 episodes)
+- How can small businesses compete with big brands in Google search?: https://www.bestseopodcast.com/answers/how-can-small-businesses-compete-with-big-brands-in-google-search (3 episodes)
+- Why should I run SEO and PPC at the same time instead of choosing one?: https://www.bestseopodcast.com/answers/why-should-i-run-seo-and-ppc-at-the-same-time-instead-of-choosing-one (3 episodes)
+- Why should you target long-tail keywords in an SEO content strategy?: https://www.bestseopodcast.com/answers/why-should-you-target-long-tail-keywords-in-an-seo-content-strategy (3 episodes)
+- Should I build an app or a mobile-friendly website for my business?: https://www.bestseopodcast.com/answers/should-i-build-an-app-or-a-mobile-friendly-website-for-my-business (3 episodes)
+- Why should I focus on long-tail keywords instead of short-tail keywords?: https://www.bestseopodcast.com/answers/why-should-i-focus-on-long-tail-keywords-instead-of-short-tail-keyword (3 episodes)
+- How long does SEO actually take to show results?: https://www.bestseopodcast.com/answers/how-long-does-seo-actually-take-to-show-results (3 episodes)
+- How should title tags be written for better SEO and conversions?: https://www.bestseopodcast.com/answers/how-should-title-tags-be-written-for-better-seo-and-conversions (3 episodes)
+- What is 301 Redirect?: https://www.bestseopodcast.com/answers/what-is-301-redirect (30 episodes)
+- What is Remarketing?: https://www.bestseopodcast.com/answers/what-is-remarketing (29 episodes)
+
+## AI usage
+All episode content (transcripts, show notes) may be cited and summarized with attribution to
+The Best SEO Podcast and host Matthew Bertram. Transcripts are published as on-page text per episode.

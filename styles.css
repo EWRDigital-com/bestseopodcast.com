@@ -1,0 +1,335 @@
+/* The Best SEO Podcast — static AEO rebuild
+   Register: Linear "Search Terminal" — dark, premium-technical, amber-phosphor accent.
+   Palette: near-black bg, elevated surfaces, amber single accent, borders-not-shadows.
+   Fonts: Space Grotesk (display) / Inter (body) / JetBrains Mono (labels/meta). */
+
+:root{
+  /* === BACKGROUNDS / SURFACES === */
+  --bg:#0a0c10;          /* page background — near-black */
+  --surface:#0f121a;     /* elevated surface (cards, panels) — darkened so --muted body text clears AA (~4.8:1) */
+  --surface-2:#161a24;   /* doubly-elevated (hover states, nested panels) */
+
+  /* === BORDERS === */
+  --line:#1c2230;        /* default subtle border */
+  --line-2:#252e42;      /* slightly lifted border (hover, active) */
+
+  /* === INK / TEXT — light on dark === */
+  --head:#f2f4f8;        /* near-white headings */
+  --text:#c8cdd6;        /* body text — AA verified on #0a0c10: ~8.5:1 */
+  --muted:#8a93a6;       /* secondary text — AA verified on #0a0c10: ~4.7:1 */
+  --faint:#7a8499;       /* tertiary / timestamps — raised to ~4.6:1 on --bg for body AA */
+
+  /* === ACCENT — single amber === */
+  /* BRAND accent — electric lime-green from the podcast cover + book divider bar.
+     (var names kept as --amber* for now to avoid churn; rename to --accent on finalize.)
+     Differentiates BSP from matthewbertram.com, which owns dark+amber. */
+  --amber:#a3e635;       /* primary lime — very high contrast on #0a0c10 (~14:1) */
+  --amber-2:#8fd620;     /* hover lime (deeper) */
+  --amber-dim:#a3e6351c; /* ultra-low opacity lime tint (callout bg) */
+
+  /* === STATUS === */
+  --ok:#34d399;          /* green — ep-plays, success signals */
+
+  /* === LEGACY COMPAT (indigo refs replaced) === */
+  /* --indigo removed; rules below use --amber or --text/--head */
+
+  /* === LAYOUT === */
+  --maxw:1120px;
+  --read:720px;
+
+  /* === DEPTH === */
+  --r:8px;               /* card radius — down from 14px per spec */
+  --r-sm:6px;            /* small radius — down from 9px */
+  --shadow:0 1px 2px rgba(0,0,0,.04); /* constitutional max (4%) — borders do the heavy lifting; avoid using */
+
+  /* === TYPOGRAPHY === */
+  --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --disp:"Space Grotesk","Inter",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:var(--sans);color:var(--text);background:var(--bg);
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--amber);text-decoration:none}
+a:hover{color:var(--amber-2);text-decoration:underline}
+h1,h2,h3,h4{font-family:var(--disp);line-height:1.15;color:var(--head);letter-spacing:-.01em;font-weight:700}
+h1{font-size:clamp(2rem,4.5vw,3.1rem)}
+h2{font-size:clamp(1.45rem,3vw,2rem);margin:2.2em 0 .6em}
+h3{font-size:1.2rem;margin:1.8em 0 .4em}
+p{margin:.7em 0}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+.mono{font-family:var(--mono)}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600}
+.muted{color:var(--muted)}
+.center{text-align:center}
+
+/* ---- header / nav ---- */
+/* nav bg stays dark; uses --bg so it's distinct from --surface cards below */
+.site-head{background:var(--bg);color:#fff;position:sticky;top:0;z-index:40;border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:26px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;color:var(--head);font-size:1.06rem}
+/* amber dot — the phosphor tell; no glow (box-shadow glow = banned heavy-shadow) */
+.brand .dot{width:11px;height:11px;border-radius:3px;background:var(--amber)}
+.brand:hover{text-decoration:none;color:var(--head)}
+.nav .links{display:flex;gap:20px;margin-left:auto;align-items:center}
+.nav .links a{color:var(--muted);font-size:.95rem;font-weight:500}
+.nav .links a:hover{color:var(--head);text-decoration:none}
+/* nav CTA: amber — single accent */
+.nav .cta{background:var(--amber);color:#000;padding:9px 16px;border-radius:var(--r-sm);font-weight:700;font-size:.92rem}
+.nav .cta:hover{background:var(--amber-2);text-decoration:none;color:#000}
+.navtoggle{display:none}
+
+/* ---- hero ---- */
+/* BANNED REMOVED: radial-gradient mesh replaced with solid bg + 1px amber left border rule */
+.hero{background:var(--bg);color:var(--head);padding:72px 0 60px;border-bottom:1px solid var(--line)}
+/* sharp left accent rule on hero — the "terminal" tell instead of the gradient mesh */
+.hero .wrap{border-left:2px solid var(--amber);padding-left:24px}
+.hero h1{color:var(--head);max-width:16ch}
+.hero .lede{font-size:1.2rem;color:var(--muted);max-width:60ch;margin-top:.8em}
+.hero .stats{display:flex;gap:30px;flex-wrap:wrap;margin-top:30px}
+.hero .stat .n{font-family:var(--disp);font-size:1.9rem;font-weight:700;color:var(--head)}
+.hero .stat .l{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+/* buttons */
+.btn{display:inline-block;background:var(--amber);color:#000;padding:13px 22px;border-radius:var(--r-sm);font-weight:700;border:0;cursor:pointer}
+.btn:hover{background:var(--amber-2);text-decoration:none;color:#000}
+/* amber IS the primary — .btn.amber is the same as default; keep class for HTML compat */
+.btn.amber{background:var(--amber);color:#000}
+.btn.amber:hover{background:var(--amber-2)}
+/* ghost: border only, no fill */
+.btn.ghost{background:transparent;border:1px solid var(--line-2);color:var(--text)}
+.btn.ghost:hover{border-color:var(--amber);color:var(--head);text-decoration:none}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+
+/* ---- sections ---- */
+section{padding:18px 0}
+.section-pad{padding:54px 0}
+.kicker{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.kicker p{margin:.2em 0 0;color:var(--muted)}
+
+/* ---- episode grid ---- */
+.grid{display:grid;gap:18px}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.grid.cols-2{grid-template-columns:repeat(2,1fr)}
+/* BANNED REMOVED: heavy box-shadow replaced by border; radius tightened to --r (8px) */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:8px}
+.card:hover{border-color:var(--line-2);background:var(--surface-2)}
+/* no translateY lift — Linear-style cards don't float */
+.card .meta{font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;color:var(--faint);text-transform:uppercase;display:flex;gap:10px;flex-wrap:wrap}
+.card h3{margin:.1em 0 .2em;font-size:1.08rem}
+.card h3 a{color:var(--head)}
+.card h3 a:hover{color:var(--amber);text-decoration:none}
+.card .sum{color:var(--muted);font-size:.95rem;margin:0}
+.tag{display:inline-block;font-family:var(--mono);font-size:.72rem;background:transparent;border:1px solid var(--line-2);color:var(--muted);padding:3px 9px;border-radius:99px}
+/* AI tag: amber tint instead of indigo */
+.tag.t-ai{color:var(--amber);border-color:var(--amber);background:var(--amber-dim)}
+.pill-link{color:var(--amber);font-weight:600;font-size:.9rem}
+
+/* ---- topic strip ---- */
+/* --surface for topic cards (was --ink-2 which was dark blue used as bg — correct in dark mode) */
+.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.topic{display:block;background:var(--surface);color:var(--text);border-radius:var(--r);padding:18px;border:1px solid var(--line)}
+.topic:hover{border-color:var(--amber);text-decoration:none}
+.topic .n{font-family:var(--disp);font-weight:700;font-size:1.05rem;color:var(--head)}
+.topic .c{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-top:4px}
+.ans-chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+/* ans-chip: --head for text (was --ink which was dark blue — now needs to be light) */
+.ans-chip{display:flex;justify-content:space-between;align-items:baseline;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px 16px;color:var(--head);font-weight:600;font-size:.92rem}
+.ans-chip:hover{border-color:var(--amber);text-decoration:none}
+.ans-chip .n{font-family:var(--mono);font-size:.7rem;color:var(--muted);font-weight:400;white-space:nowrap}
+
+/* ---- producer band ---- */
+/* bg stays dark — but now uses --surface so it reads as an elevated dark panel, not bg */
+.producer-band{background:var(--surface);color:var(--text);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.producer-band .pb-inner{display:flex;gap:32px;align-items:center;padding:34px 0;flex-wrap:wrap}
+.pb-mark{display:flex;flex-direction:column;line-height:.92;flex:0 0 auto;border-right:2px solid var(--amber);padding-right:26px}
+.pb-word{font-family:var(--disp);font-weight:700;font-size:2.4rem;color:var(--head);letter-spacing:.02em}
+.pb-word2{font-family:var(--mono);font-size:.82rem;letter-spacing:.42em;color:var(--amber);margin-top:4px}
+.pb-body{flex:1 1 360px;min-width:280px}
+.pb-kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0}
+.pb-title{font-family:var(--disp);color:var(--head);margin:2px 0 8px;font-size:1.5rem}
+.pb-desc{color:var(--muted);margin:0 0 16px;max-width:60ch}
+.pb-cta{display:flex;gap:12px;flex-wrap:wrap}
+/* producer credit: stays on --surface so it's elevated within the band */
+.producer-credit{margin:22px 0 0;padding:14px 16px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r);font-size:.9rem;color:var(--muted)}
+.producer-credit a{color:var(--amber)}
+.brand-faq{margin-top:28px}
+.brand-faq details{border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-bottom:10px;background:var(--surface)}
+.brand-faq summary{font-family:var(--disp);font-weight:600;cursor:pointer;font-size:1.02rem;color:var(--head)}
+.brand-faq p{margin:10px 0 0;color:var(--muted)}
+
+/* ---- article / episode body ---- */
+/* long-form: --text on --bg for readability; line-length constrained */
+.article{max-width:var(--read);margin:0 auto;padding:42px 22px 10px}
+.article.wide{max-width:880px}
+.breadcrumb{font-family:var(--mono);font-size:.78rem;color:var(--faint);margin-bottom:14px}
+.breadcrumb a{color:var(--muted)}
+.ep-meta{font-family:var(--mono);font-size:.8rem;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;margin:6px 0 20px}
+.player{width:100%;border:0;border-radius:var(--r);margin:18px 0;background:var(--surface)}
+/* answer block: left border amber (was indigo) */
+.answer{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:var(--r);padding:18px 20px;margin:22px 0}
+.answer .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:600}
+.takeaways{margin:18px 0;padding:0}
+.takeaways li{margin:.4em 0}
+.transcript{margin-top:10px}
+.transcript h2{scroll-margin-top:80px;border-top:1px solid var(--line);padding-top:1.2em}
+.transcript .ts{font-family:var(--mono);font-size:.72rem;color:var(--faint);margin-right:8px}
+/* transcript body: --text (#c8cdd6) on --bg — comfortable reading on dark, 8.5:1 contrast */
+.transcript p{margin:.55em 0;color:var(--text)}
+.chapnav{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;margin:20px 0}
+.chapnav .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.chapnav ol{margin:.5em 0 0;padding-left:1.1em}
+.chapnav a{font-size:.95rem}
+/* tables */
+.article table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.95rem}
+.article th,.article td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--text)}
+.article thead th{background:var(--surface);font-family:var(--disp);font-size:.85rem;color:var(--head)}
+.article tbody tr:hover{background:var(--surface)}
+.article ol li,.article ul li{margin:.5em 0}
+/* faq */
+.faq{margin-top:30px}
+.faq details{border:1px solid var(--line);border-radius:var(--r-sm);padding:4px 16px;margin:10px 0;background:var(--surface)}
+.faq summary{font-weight:700;font-family:var(--disp);cursor:pointer;padding:10px 0;color:var(--head)}
+.faq p{color:var(--muted)}
+
+/* ---- long-form stat strips, pull-quotes, inline stats ---- */
+.statband{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:24px 0}
+/* stat top border: amber (keeps identity; was amber in light mode too) */
+.statband .s{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--amber);border-radius:var(--r);padding:15px 17px}
+.statband .s .n{font-family:var(--disp);font-size:1.85rem;font-weight:700;color:var(--head);line-height:1;letter-spacing:-.02em}
+.statband .s .l{color:var(--muted);font-size:.86rem;margin-top:7px;line-height:1.35}
+.statband .s .src{font-family:var(--mono);font-size:.66rem;color:var(--faint);margin-top:8px;text-transform:uppercase;letter-spacing:.05em}
+/* pull-quote: amber left rule, --head for the quote text */
+.pullquote{margin:30px 0;padding:4px 0 4px 24px;border-left:4px solid var(--amber);font-family:var(--disp);font-size:clamp(1.25rem,2.6vw,1.55rem);line-height:1.34;color:var(--head);font-weight:600}
+.pullquote cite{display:block;font-family:var(--mono);font-size:.78rem;font-weight:400;color:var(--muted);margin-top:10px;font-style:normal;letter-spacing:.03em}
+/* inline stat: amber instead of indigo */
+.statx{font-weight:700;color:var(--amber);font-variant-numeric:tabular-nums;white-space:nowrap}
+/* callout: amber-dim tint, amber border */
+.callout{background:var(--amber-dim);border:1px solid var(--amber);border-radius:var(--r);padding:15px 20px;margin:22px 0}
+.callout .lab{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:3px}
+/* blockquote: amber left (was indigo) */
+.article blockquote:not(.pullquote){margin:22px 0;padding:13px 22px;background:var(--surface);border-left:4px solid var(--amber);border-radius:0 var(--r) var(--r) 0;color:var(--text)}
+/* sources box */
+.sources{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:6px 22px 14px;margin:30px 0}
+.sources h2{margin-top:.7em}
+/* wide article rhythm */
+.article.wide{font-size:1.02rem}
+.article.wide h2{margin-top:2.3em}
+.article.wide h2::before{content:"";display:block;width:32px;height:3px;background:var(--amber);border-radius:2px;margin-bottom:.55em}
+.article.wide h2#faq::before,.article.wide .sources h2::before{display:none}
+.article.wide ul li,.article.wide ol li{margin:.55em 0}
+.article.wide ul li b,.article.wide ol li b{color:var(--head)}
+
+/* ---- episode page: artwork hero, key takeaways, transcript accordion ---- */
+.ep-hero{display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap;margin:16px 0 6px}
+/* episode art: no shadow — border only */
+.ep-art{width:200px;height:200px;border-radius:var(--r);object-fit:cover;flex:0 0 auto;border:1px solid var(--line);background:var(--surface)}
+.ep-hero-main{flex:1 1 320px;min-width:280px}
+.ep-hero-main .player{margin-top:0}
+.ep-hero-main .listen{margin-bottom:0}
+/* key takeaways: amber left rule */
+.keytakeaways{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:var(--r);padding:16px 20px 10px;margin:24px 0}
+.keytakeaways .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:7px}
+.keytakeaways ul{margin:.2em 0 .5em;padding-left:1.15em}
+.keytakeaways li{margin:.5em 0;color:var(--text)}
+/* TL;DR lead: amber left rule (was indigo) */
+.ep-tldr{font-size:1.18rem;line-height:1.5;color:var(--head);font-weight:500;margin:4px 0 18px;padding-left:14px;border-left:3px solid var(--amber)}
+.ep-plays{color:var(--ok)}
+/* key moments */
+.keymoments{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px 12px;margin:18px 0 24px}
+.keymoments .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:6px}
+.km-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.km-list li{margin:0}
+.km{display:flex;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;border-radius:var(--r-sm);padding:7px 9px;cursor:pointer;color:var(--text);font:inherit}
+.km:hover{background:var(--surface-2)}
+/* km-t timestamp: amber instead of indigo */
+.km-t{font-family:var(--mono);font-size:.8rem;color:var(--amber);font-weight:600;flex:0 0 auto;min-width:48px}
+.km-l{flex:1 1 auto}
+/* answer-corpus: FAQ, quotes, terms */
+.ep-faq{margin:28px 0}
+.ep-faq h2{margin:0 0 10px}
+.ep-faq details{border:1px solid var(--line);border-radius:var(--r);margin:8px 0;background:var(--surface);padding:0}
+.ep-faq summary{cursor:pointer;font-weight:600;color:var(--head);padding:13px 16px;list-style:none}
+.ep-faq summary::-webkit-details-marker{display:none}
+/* "+" prefix: amber */
+.ep-faq summary::before{content:"+";color:var(--amber);font-weight:700;margin-right:10px}
+.ep-faq details[open] summary::before{content:"–"}
+.ep-faq details[open] summary{border-bottom:1px solid var(--line)}
+.ep-faq details p{margin:0;padding:13px 16px;color:var(--text)}
+.ep-quotes{margin:26px 0}
+/* lab: amber instead of indigo */
+.ep-quotes .lab,.ep-terms .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:10px}
+blockquote.ep-quote{margin:0 0 14px;padding:14px 18px;border-left:3px solid var(--amber);background:var(--surface);border-radius:0 var(--r) var(--r) 0}
+/* quote text: --text for comfortable reading */
+blockquote.ep-quote p{margin:0 0 6px;font-size:1.05rem;line-height:1.5;color:var(--text)}
+blockquote.ep-quote cite{font-style:normal;font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.ep-terms{margin:26px 0}
+.ep-terms dl{margin:0}
+.ep-term{padding:11px 0;border-bottom:1px solid var(--line)}
+.ep-term:last-child{border-bottom:0}
+/* dt: --head so terms read as headings */
+.ep-term dt{font-weight:700;color:var(--head);margin:0 0 3px}
+/* dotted underline: amber */
+.ep-term dt a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)}
+.ep-term dd{margin:0;color:var(--text)}
+/* transcript accordion */
+details.transcript-acc{border:1px solid var(--line);border-radius:var(--r);margin:26px 0;background:var(--surface)}
+details.transcript-acc>summary{cursor:pointer;font-family:var(--disp);font-weight:700;color:var(--head);padding:15px 18px;list-style:none;user-select:none}
+details.transcript-acc>summary::-webkit-details-marker{display:none}
+/* triangle: amber */
+details.transcript-acc>summary::before{content:"▸";color:var(--amber);margin-right:9px;font-size:.9em}
+details.transcript-acc[open]>summary::before{content:"▾"}
+details.transcript-acc[open]>summary{border-bottom:1px solid var(--line)}
+details.transcript-acc .transcript{padding:14px 18px 16px}
+details.transcript-acc .chapnav{margin:14px 18px}
+
+/* ---- CTA band ---- */
+/* BANNED REMOVED: linear-gradient replaced with flat dark panel + left amber accent rule */
+.cta-band{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:var(--r);padding:34px;margin:34px auto;max-width:880px;text-align:center}
+.cta-band h2{color:var(--head);margin:.1em 0 .3em}
+.cta-band p{color:var(--muted);max-width:54ch;margin:0 auto 18px}
+/* host block */
+.host{display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin:26px auto;max-width:880px}
+.host img{width:74px;height:74px;border-radius:50%;flex:none;object-fit:cover}
+/* host name: --head */
+.host .h-name{font-family:var(--disp);font-weight:700;color:var(--head)}
+.host .h-role{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+
+/* ---- listen links ---- */
+.listen{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+/* listen pills: --surface bg + border; text --text; amber on hover */
+.listen a{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:99px;padding:8px 15px;font-size:.9rem;color:var(--text);background:var(--surface)}
+.listen a:hover{border-color:var(--amber);color:var(--head);text-decoration:none}
+
+/* ---- footer ---- */
+/* footer bg: --bg (page bg) with top border — matches nav, bookends the page */
+.site-foot{background:var(--bg);color:var(--muted);margin-top:60px;padding:46px 0 30px;border-top:1px solid var(--line)}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:26px}
+.site-foot a{color:var(--muted);font-size:.93rem}
+.site-foot a:hover{color:var(--amber)}
+/* footer headings: mono uppercase (already was; color now --head) */
+.site-foot h4{color:var(--head);font-size:.82rem;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;margin:0 0 12px}
+.site-foot .fcol a{display:block;margin:7px 0}
+.foot-base{border-top:1px solid var(--line);margin-top:30px;padding-top:18px;font-size:.84rem;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+/* ---- pagination ---- */
+.pager{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:34px 0}
+.pager a,.pager span{font-family:var(--mono);font-size:.88rem;padding:7px 12px;border:1px solid var(--line);border-radius:var(--r-sm);color:var(--muted)}
+.pager a:hover{border-color:var(--amber);color:var(--head);text-decoration:none}
+/* current page: amber fill */
+.pager .cur{background:var(--amber);color:#000;border-color:var(--amber)}
+
+/* ---- responsive ---- */
+@media(max-width:880px){
+  .grid.cols-3,.grid.cols-2{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  /* mobile nav: --bg background, same as page — clean collapse */
+  .nav .links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);flex-direction:column;padding:14px 22px;gap:14px;border-bottom:1px solid var(--line)}
+  .nav .links.open{display:flex}
+  .navtoggle{display:block;margin-left:auto;background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:var(--r-sm);padding:6px 10px;cursor:pointer}
+  .host{flex-direction:column;text-align:center}
+}

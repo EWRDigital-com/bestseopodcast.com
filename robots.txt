@@ -1,0 +1,12 @@
+# The Best SEO Podcast - robots.txt
+# Goal: be found in search engines AND AI engines, and be used correctly, with attribution.
+# We do NOT block AI training crawlers: being in the models' knowledge builds the entity
+# recognition that drives citations. Use is granted under our Terms (attribution + link back
+# required): https://www.bestseopodcast.com/terms . robots.txt is advisory; reputable bots honor it, rogue scrapers may not.
+
+# Everyone welcome: search engines, AI answer engines, and AI training crawlers all get full access.
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+Sitemap: https://www.bestseopodcast.com/sitemap.xml
